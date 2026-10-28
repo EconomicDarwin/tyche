@@ -19,7 +19,7 @@ Open **Windows PowerShell** (not through Claude, because step 3 needs a real
 interactive prompt) and go to the project:
 
 ```powershell
-cd C:\Users\micha\Documents\github\yahoo_football
+cd C:\Users\micha\Documents\github\tyche
 ```
 
 Confirm the tooling is healthy before touching Yahoo:

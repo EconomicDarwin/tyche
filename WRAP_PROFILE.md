@@ -1,4 +1,4 @@
-# Wrap profile: yahoo_football
+# Wrap profile: tyche
 
 Read by the personal wrap skills, `wrap-session-personal` and `wrap-terminal-personal`, whose
 canonical copies live in the `personal` repo's `.claude/skills/` and are installed at the user
@@ -14,7 +14,7 @@ The goal is the historical record: an all-time record book, head to head rivalri
 luck-adjusted standings, and draft and trade retrospectives. Keeper valuation is the first
 shipped feature rather than the point. This is the one **public** personal repo, and it holds
 code only. The league's private artifacts, the draft-board screenshots, the keeper decision log
-and other managers' rosters, live in `../personal/fantasy_football`.
+and other managers' rosters, live in `../hestia/fantasy_football`.
 
 **Currently blocked:** Yahoo gates the Fantasy Sports API behind a review and refuses this app
 with `additional_authorization_required`. OAuth itself works and tokens are saved. Until access
@@ -41,7 +41,7 @@ is granted, every live call fails, so build and test offline.
 - **Per-user memory**: entries that name workflows, paths, or facts this session changed.
 
 **Open actions** go in the README roadmap, never a new to-do file. Anything about league data or
-a keeper decision belongs in `../personal/fantasy_football`, not here.
+a keeper decision belongs in `../hestia/fantasy_football`, not here.
 
 ## Sensitivity check
 
@@ -93,7 +93,7 @@ a keeper decision belongs in `../personal/fantasy_football`, not here.
 
 ## The pick-up prompt
 
-1. One line: resuming yahoo_football on the branch actually checked out (read it, do not assume).
+1. One line: resuming tyche on the branch actually checked out (read it, do not assume).
    Read `CLAUDE.md`, above all the architecture and "things that will bite you" sections, then
    `README.md` for the roadmap and `SETUP.md` if the environment is in question.
 2. The standing rules, one line each: the repo is public so nothing private lands here, the venv

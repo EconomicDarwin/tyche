@@ -115,5 +115,5 @@ verifies that on every run. Do not print its values.
 
 The league's private artifacts (draft-board screenshots, keeper decision log,
 other managers' rosters) live in a separate private repo at
-`../personal/fantasy_football`. Analysis code belongs here, and league data and
+`../hestia/fantasy_football`. Analysis code belongs here, and league data and
 decisions belong there.
